@@ -27,8 +27,9 @@ header{
     border-bottom:1px solid #eee;
    }
 
-.logo {
-    max-width: 220px;
+.logo{
+    width:180px;
+    height:auto;
 }
 
 .hero {
@@ -107,22 +108,22 @@ footer {
     font-size:14px;
 }
 
-.mobile-menu {
-    position:fixed;
-    bottom:0;
-    left:0;
-    width:100%;
-    background:white;
-    border-top:1px solid #ddd;
-    display:flex;
-    justify-content:space-around;
-    padding:12px;
-}
-
 .mobile-menu a {
     text-decoration:none;
     color:#0b5fa5;
     font-weight:bold;
+}
+
+nav a{
+    text-decoration:none;
+    color:#0b5fa5;
+    font-weight:bold;
+    margin-left:25px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#222;
 }
 
 @media(min-width:700px){
@@ -130,6 +131,7 @@ footer {
     display:none;
 }
 }
+
 
 </style>
 
@@ -262,15 +264,5 @@ footer {
 </body>
 </html>
 
-nav a{
-    text-decoration:none;
-    color:#0b5fa5;
-    font-weight:bold;
-    margin-left:25px;
-}
 
-nav a:hover{
 
-    color:#222;
-
-}
